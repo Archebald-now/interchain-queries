@@ -1,25 +1,21 @@
 # Check go version is 1.18.x
-```
 go version
-```
 # 1.18.*
 
 # Build
 
-```
 cd $HOME
 git clone https://github.com/Stride-Labs/interchain-queries.git
 cd interchain-queries
 go build
 sudo mv interchain-queries /usr/local/bin/icq
-```
+
 
 # Add config
-
 cd $HOME
 
 mkdir $HOME/.icq
-```
+
 tee $HOME/.icq/config.yaml > /dev/null <<EOF
 default_chain: stride
 chains:
@@ -56,16 +52,11 @@ chains:
 cl: {}
 EOF
 
-```
 # Restore wallets
-```
 icq keys restore --chain stride wallet <<< "stride rel_wallet mnemonic here"
 icq keys restore --chain gaia wallet <<< "gaia rel_wallet mnemonic here"
-```
-
 
 # Create unit
-```
 tee $HOME/icqd.service > /dev/null <<EOF
 [Unit]
 Description=icq
@@ -82,18 +73,16 @@ WantedBy=multi-user.target
 EOF
 
 sudo mv $HOME/icqd.service /etc/systemd/system/
-```
 
 # Start service
-```
 sudo systemctl daemon-reload
 sudo systemctl enable icqd
-```
 
 # Start icq
-```
 sudo systemctl restart icqd && journalctl -u icqd -f -o cat
-```
 
 # WAIT 30-55 min before ANY logs will run
+https://i.postimg.cc/jjwBCLDy/ICQ-logs.jpg 
 
+# Check transaction in explorer
+https://stride.explorers.guru/transaction/CC1AFB8BF694190D04AEF5415F37822193B80135A0039F28EF42E4C860631977
