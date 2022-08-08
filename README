@@ -1,9 +1,6 @@
 # Check go version is 1.18.x
 
 # check go version is 1.18.x
-go version
-# 1.18.*
-```
 
 # Build
 
