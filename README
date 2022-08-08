@@ -7,6 +7,7 @@ go version
 cd $HOME
 git clone https://github.com/Stride-Labs/interchain-queries.git
 cd interchain-queries
+git checkout v0.0.4
 go build
 sudo mv interchain-queries /usr/local/bin/icq
 
