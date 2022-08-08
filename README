@@ -94,4 +94,4 @@ sudo systemctl restart icqd && journalctl -u icqd -f -o cat
 
 **# WAIT 30-55 min before ANY logs will run**
 ```
-[![ICQ-logs.jpg](https://i.postimg.cc/jjwBCLDy/ICQ-logs.jpg)](https://postimg.cc/jWTMFqQj)
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/jjwBCLDy/ICQ-logs.jpg' border='0' alt='ICQ-logs'/></a>
