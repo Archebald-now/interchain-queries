@@ -85,4 +85,9 @@ sudo systemctl restart icqd && journalctl -u icqd -f -o cat
 https://i.postimg.cc/jjwBCLDy/ICQ-logs.jpg 
 
 # Check transaction in explorer
+https://stride.explorers.guru/transaction/FEC0051B33B38A3FFAA6EB2B7522453045F4764E2FA20A1F665DDA4853EE29EA
+https://stride.explorers.guru/transaction/EF1792116570B8EFAC27B7524A42288A5D506AF4EA445D8CFC0DF4B6FEDD3BA0
+https://stride.explorers.guru/transaction/F11CABCD160A7FE54F25840375CB1EEE57CD1575E6FFC37F17E8E4F56608424F
 https://stride.explorers.guru/transaction/CC1AFB8BF694190D04AEF5415F37822193B80135A0039F28EF42E4C860631977
+https://stride.explorers.guru/transaction/EE5F0D0E4B109E87CC7CC740E38125DCD30B135DCFBB42F32F046A2FBD9DCA84
+https://stride.explorers.guru/transaction/88DB62CC2101448104D4B30082B8B669753369EC7F32C2BDA026DAAA655F9974
